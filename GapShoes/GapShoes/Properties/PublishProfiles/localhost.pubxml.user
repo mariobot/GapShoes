@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://localhost/gapshoes</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/css/demo.css">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/css/gsdk.css">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/1.jpg">
+      <publishTime>02/01/2017 21:32:39</publishTime>
+    </File>
+    <File Include="assets/img/2.jpg">
+      <publishTime>02/01/2017 21:32:39</publishTime>
+    </File>
+    <File Include="assets/img/3.jpg">
+      <publishTime>02/01/2017 21:32:39</publishTime>
+    </File>
+    <File Include="assets/img/4.jpg">
+      <publishTime>02/01/2017 21:32:39</publishTime>
+    </File>
+    <File Include="assets/img/5.jpg">
+      <publishTime>02/01/2017 21:32:39</publishTime>
+    </File>
+    <File Include="assets/img/apple-icon.png">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/banner.jpg">
+      <publishTime>02/01/2017 21:32:39</publishTime>
+    </File>
+    <File Include="assets/img/banner2.jpg">
+      <publishTime>02/01/2017 21:32:39</publishTime>
+    </File>
+    <File Include="assets/img/bg.jpg">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/blurred-black-cover.jpeg">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/carousel_blue.png">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/carousel_green.png">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/carousel_orange.png">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/carousel_red.png">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/cover_4.jpg">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/cover_4_blur.jpg">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/dulau.jpg">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/favicon.png">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/mask.png">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/mockup.png">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/new_logo.png">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/img/tim_80x80.png">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/js/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/js/custom.js">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/js/get-shit-done.js">
+      <publishTime>01/31/2017 21:24:48</publishTime>
+    </File>
+    <File Include="assets/js/gsdk-bootstrapswitch.js">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/js/gsdk-checkbox.js">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/js/gsdk-radio.js">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/js/jquery-ui-1.10.4.custom.min.js">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/js/presentation-page/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/mixins/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/mixins/_buttons.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/mixins/_inputs.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/mixins/_labels.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/mixins/_navbars.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/mixins/_tabs.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/mixins/_transparency.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/mixins/_vendor-prefixes.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_alerts.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_buttons.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_carousel.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_checkbox-radio-switch.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_collapse.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_dropdown.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_inputs.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_labels-and-progress-bars.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_misc.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_mixins.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_modal.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_navbars.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_responsive.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_sliders.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_tabs-navs-pagination.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_tooltips.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_typography.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="assets/sass/gsdk/_variables.scss">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/GapShoes.dll">
+      <publishTime>02/28/2017 16:10:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 17:28:38</publishTime>
+    </File>
+    <File Include="bootstrap3/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/css/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/css/bootstrap-theme.css">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/css/bootstrap-theme.min.css">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/css/bootstrap.css">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/css/bootstrap.min.css">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/css/font-awesome.css">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/fonts/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/fonts/fontawesome-webfont.eot">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/fonts/fontawesome-webfont.svg">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/fonts/fontawesome-webfont.ttf">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/fonts/fontawesome-webfont.woff">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/fonts/FontAwesome.otf">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/js/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/js/bootstrap.js">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="bootstrap3/js/bootstrap.min.js">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/31/2017 13:49:20</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>02/01/2017 15:36:17</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/31/2017 13:49:20</publishTime>
+    </File>
+    <File Include="jquery/.DS_Store">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="jquery/jquery-1.10.2.js">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="jquery/jquery-ui.custom.min.js">
+      <publishTime>01/31/2017 19:47:19</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/31/2017 17:20:50</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/31/2017 17:20:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>01/31/2017 13:49:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>01/31/2017 13:49:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>01/31/2017 13:49:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>01/31/2017 13:49:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>01/31/2017 13:49:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>01/31/2017 13:49:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>01/31/2017 13:49:31</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>01/31/2017 13:49:30</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>01/31/2017 13:49:30</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>01/31/2017 13:49:30</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>02/01/2017 21:50:30</publishTime>
+    </File>
+    <File Include="Views/Articles/Create.cshtml">
+      <publishTime>02/01/2017 15:17:29</publishTime>
+    </File>
+    <File Include="Views/Articles/Delete.cshtml">
+      <publishTime>02/01/2017 15:09:10</publishTime>
+    </File>
+    <File Include="Views/Articles/Details.cshtml">
+      <publishTime>01/31/2017 15:06:15</publishTime>
+    </File>
+    <File Include="Views/Articles/Edit.cshtml">
+      <publishTime>02/01/2017 15:30:39</publishTime>
+    </File>
+    <File Include="Views/Articles/Index.cshtml">
+      <publishTime>02/01/2017 15:29:19</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>02/01/2017 21:48:54</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>02/01/2017 21:38:34</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>01/31/2017 13:49:20</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>02/01/2017 22:18:05</publishTime>
+    </File>
+    <File Include="Views/Stores/Create.cshtml">
+      <publishTime>02/01/2017 14:48:21</publishTime>
+    </File>
+    <File Include="Views/Stores/Delete.cshtml">
+      <publishTime>02/01/2017 14:53:16</publishTime>
+    </File>
+    <File Include="Views/Stores/Edit.cshtml">
+      <publishTime>02/01/2017 14:55:59</publishTime>
+    </File>
+    <File Include="Views/Stores/Index.cshtml">
+      <publishTime>02/01/2017 15:27:55</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>01/31/2017 13:49:20</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>01/31/2017 13:49:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/28/2017 16:10:48</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

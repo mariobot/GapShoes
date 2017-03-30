@@ -49,3 +49,4 @@ C:\Desarrollo\GapShoes\GapShoes\GapShoes\obj\Release\GapShoes.Migrations.Fist_Mi
 C:\Desarrollo\GapShoes\GapShoes\GapShoes\obj\Release\GapShoes.csproj.GenerateResource.Cache
 C:\Desarrollo\GapShoes\GapShoes\GapShoes\obj\Release\GapShoes.dll
 C:\Desarrollo\GapShoes\GapShoes\GapShoes\obj\Release\GapShoes.pdb
+C:\Desarrollo\GapShoes\GapShoes\GapShoes\obj\Release\GapShoes.csprojResolveAssemblyReference.cache
